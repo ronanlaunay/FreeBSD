@@ -1,3 +1,4 @@
+#!/bin/sh
 cd /usr/ports/www/apache22
 make configure
 make
