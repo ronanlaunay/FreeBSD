@@ -1,3 +1,3 @@
 #!/bin/bash
 cd /usr/ports/ftp/wget
-make install clean
+make -DWITHOUT_IPV6 install clean
