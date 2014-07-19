@@ -1,4 +1,2 @@
 cd /usr/ports/lang/php5/
-make configure
-make
-make install
+make -DWITH_APACHE install clean 
