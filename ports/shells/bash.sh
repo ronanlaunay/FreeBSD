@@ -1,3 +1,3 @@
 #!/bin/sh
 cd /usr/ports/shells/bash
-make install clean
+make -DBATCH install clean
