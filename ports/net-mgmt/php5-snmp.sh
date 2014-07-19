@@ -1,3 +1,3 @@
 #!/bin/sh
 cd /usr/ports/net-mgmt/php5-snmp
-make install clean
+make -DBATCH install clean
