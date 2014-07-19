@@ -1,6 +1,4 @@
 #!/bin/sh
 cd /usr/ports/databases/rrdtool
-make
-make configure
-make install
+make install clean
 echo 'rrdcached_enable="YES"' >> /etc/rc.conf
