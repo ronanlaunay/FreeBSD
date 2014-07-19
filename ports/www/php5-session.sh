@@ -1,3 +1,3 @@
 #!/bin/sh
 cd /usr/ports/www/php5-session
-make install clean
+make -DBATCH install clean
