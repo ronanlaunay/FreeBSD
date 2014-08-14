@@ -1,4 +1,4 @@
 #!/bin/sh
 cd /usr/ports/databases/rrdtool
-make -DBATCHinstall clean
+make -DBATCH install clean
 echo 'rrdcached_enable="YES"' >> /etc/rc.conf
